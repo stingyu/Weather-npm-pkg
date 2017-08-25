@@ -1,0 +1,24 @@
+{
+  "name": "weather-pkg",
+  "version": "1.0.1",
+  "description": "a pkg for check weather from city-name",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stingyu/Weatherr-npm-pkg.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "stingy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
